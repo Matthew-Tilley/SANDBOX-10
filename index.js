@@ -1,14 +1,20 @@
-document.addEventListener("DOMContentLoaded", init, false);
+
 
 function init()
 {
-	var str = "Text content";
-	var num = 100;
-	var bln = true;
-	var fcn = init;
-	var obj = document.getElementById("panel");
+	var cycler = [];
 	
-	obj.innerHTML = str + "LKJLKJ";
+	cycler.push("Text");
+	cycler.push(100);
+	cycler.push(true);
+	
+	for (i=0; i<cycler.length; i++)
+	{
+		console.log([i]);
+	}
+	
+	
+	
 }
 
 
@@ -19,4 +25,3 @@ init();
 
 
 
-obj.innerHTML = str + " : " + typeof str;
