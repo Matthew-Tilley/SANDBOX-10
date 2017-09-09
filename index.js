@@ -1,3 +1,3 @@
-var test = 12345;
+var test = "LKAJSDLKASJDLKJ";
 
 console.log(typeof(test));
