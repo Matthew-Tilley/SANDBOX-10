@@ -1,4 +1,5 @@
-/*
+document.addEventListener("DOMContentLoaded", init, false);
+
 function init()
 {
 	var str = "Text content";
@@ -6,17 +7,16 @@ function init()
 	var bln = true;
 	var fcn = init;
 	var obj = document.getElementById("panel");
-}
-*/
-
-document.addEventListener("DOMContentLoaded", init, false);
-
-function init()
-{
 	
+	obj.innerHTML = str + "LKJLKJ";
 }
 
-var str = "Text content in JavaScript";
-var obj = document.getElementById("panel");
+
+
+init();
+
+
+
+
 
 obj.innerHTML = str + " : " + typeof str;
