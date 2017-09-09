@@ -1,14 +1,16 @@
 $(document).ready(function()
 {
-
-	function mousein()
-	{
-		alert("Mouse is over the orange square!")
-	}
-
-	function mouseout()
-	{
-		alert("Mouse is no longer over the orange square!")
-	}
-
+	
+	
+	
 });
+
+function foo()
+{
+	var turtle = document.getElementById("BOX_1");
+	
+	$(turtle).hide();
+	
+}
+
+
