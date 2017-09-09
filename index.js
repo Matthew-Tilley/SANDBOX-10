@@ -10,7 +10,7 @@ function init()
 	
 	for (i=0; i<cycler.length; i++)
 	{
-		console.log([i]);
+		console.log(typeof[i]);
 	}
 	
 	
