@@ -1,3 +1,4 @@
+/*
 function init()
 {
 	var str = "Text content";
@@ -6,5 +7,11 @@ function init()
 	var fcn = init;
 	var obj = document.getElementById("panel");
 }
+*/
 
-document.addEventListener("DOMContentLoaded", init, false);
+/*document.addEventListener("DOMContentLoaded", init, false);*/
+
+var str = "Text content";
+var obj = document.getElementById("panel");
+
+obj.innerHTML = str + " : " + typeof str;
