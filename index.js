@@ -2,12 +2,18 @@
 
 function cube(x)
 {
-	var x = prompt("Enter a number:");
 	
-	return var y = x * x * x;
+	var y = x * x * x;
+	
+	return y;
+	
 }
 
-console.log(y + "It works.");
+function runner()
+{
+	var x = prompt("Enter a number:");
+	console.log(cube(x) + " It works.");
+}
 
 
 
