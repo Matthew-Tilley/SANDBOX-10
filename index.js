@@ -1,10 +1,14 @@
-var x = prompt("Enter a number:");
+
 
 function cube(x)
 {
+	var x = prompt("Enter a number:");
+	
 	return x * x * x;
 }
 
 number_cubed = cube(x);
-console.log(number_cubed);
+
+alert(number_cubed + " LKJASLKJASD!!!");
+
 
