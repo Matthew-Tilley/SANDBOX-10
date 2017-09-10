@@ -1,8 +1,8 @@
 function calc()
 {
 	var x = prompt("Enter a number:");
-	cuber();
 	return x;
+	
 }
 
 function cuber(x)
@@ -11,4 +11,10 @@ function cuber(x)
 	return c;
 }
 
-console.log(calc() + " is the cube of your number.");
+function master()
+{
+	calc();
+	cuber();
+	console.log(parseFloat(c));
+}
+
