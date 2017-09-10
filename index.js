@@ -1,7 +1,7 @@
 function calc()
 {
 	var x = prompt("Enter a number:");
-	return x;
+	/*return x;*/
 }
 
 console.log(calc() + " YUP");
