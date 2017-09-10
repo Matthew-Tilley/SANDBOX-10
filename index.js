@@ -7,7 +7,7 @@ function cube(x)
 	return x * x * x;
 }
 
-number_cubed = cube(x);
+number_cubed = cube();
 
 alert(number_cubed + " LKJASLKJASD!!!");
 
