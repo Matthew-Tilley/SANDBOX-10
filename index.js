@@ -1,7 +1,10 @@
+var x = prompt("Enter a number:");
+
 function cube(x)
 {
 	return x * x * x;
 }
 
-var answer = cube(3);
-console.log(answer);
+number_cubed = cube(x);
+console.log(number_cubed);
+
