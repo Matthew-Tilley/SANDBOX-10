@@ -1,5 +1,7 @@
 function calc()
 {
 	var x = prompt("Enter a number:");
-	console.log(x + " IT WORKS");
+	return x;
 }
+
+console.log(calc() + " YUP");
