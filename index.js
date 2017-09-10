@@ -1,5 +1,7 @@
 var TEST = function()
 {
 	var x = prompt("Enter a number:");
-	console.log(x);
+	
+	return alert(x*x*x + " IT WORKS!!!");
+	
 }
