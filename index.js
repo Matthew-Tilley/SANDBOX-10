@@ -7,8 +7,8 @@ function calc()
 
 function cuber(x)
 {
-	x = x*x*x;
-	return x;
+	c = x*x*x;
+	return c;
 }
 
-calc();
+console.log(calc() + " is the cube of your number.");
