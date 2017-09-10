@@ -1,4 +1,4 @@
 var TEST = function()
 {
-	console.log("IT WORKS!");
+	var x = prompt("Enter a number:");
 }
