@@ -1,16 +1,11 @@
-$(document).ready(function()
-{
-	
-	
-	
-});
-
 function foo()
 {
-	var turtle = document.getElementById("BOX_1");
-	
-	$(turtle).hide();
-	
+	alert("You clicked the image!")
+}
+
+function mouseout()
+{
+	alert("Nope.");
 }
 
 
