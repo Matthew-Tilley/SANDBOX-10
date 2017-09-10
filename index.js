@@ -1,7 +1,14 @@
 function calc()
 {
 	var x = prompt("Enter a number:");
-	return x + " wizzle-dizzle";
+	cuber();
+	return x;
 }
 
-console.log(calc() + " YUP");
+function cuber(x)
+{
+	x = x*x*x;
+	return x;
+}
+
+calc();
