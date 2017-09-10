@@ -4,4 +4,6 @@ function addTax(subtotal, taxRate)
 	return total;
 }
 
-console.log(addTax(100, 5));
+var invoiceValue = addTax(50, 10);
+alert(invoiceValue);
+alert(total);
