@@ -1,6 +1,6 @@
-function cube(x)
+function cube(number)
 {
-	alert(x*x*x);
+	alert(number*number*number);
 }
 
-cube(3);
+cube(30);
