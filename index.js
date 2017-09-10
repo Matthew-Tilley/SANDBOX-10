@@ -7,8 +7,8 @@ function cube(x)
 	return x * x * x;
 }
 
-number_cubed = cube();
+console.log(number_cubed = cube() + " 9809808900-980-9");
 
-alert(number_cubed + " LKJASLKJASD!!!");
+
 
 
