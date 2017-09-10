@@ -1,13 +1,7 @@
-function buttonReport(buttonId, buttonName, buttonValue)
+function cube(x)
 {
-	var userMessage1 = "Button id: " + buttonId + "\n";
-	
-	var userMessage2 = "Button name: " + buttonName + "\n";
-	
-	var userMessage3 = "Button value " + buttonValue;
-	
-	alert(userMessage1 + " " + userMessage2 + " " + userMessage3);
+	return x * x * x;
 }
 
-
-
+var answer = cube(3);
+console.log(answer);
