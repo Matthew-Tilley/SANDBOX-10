@@ -1,1 +1,1 @@
-history.back();
+history.go(-30);
