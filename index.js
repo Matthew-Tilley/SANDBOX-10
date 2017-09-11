@@ -1,1 +1,1 @@
-location.href = "www.google.com";
+location.replace = "www.google.com";
