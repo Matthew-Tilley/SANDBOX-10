@@ -1,0 +1,1 @@
+confirm("Is Mickey Mouse a cat or a dog?");
