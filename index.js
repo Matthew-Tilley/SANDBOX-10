@@ -5,5 +5,5 @@ document.getElementById("BD4").innerHTML= 	navigator.language;
 document.getElementById("BD5").innerHTML= 	navigator.cookieEnabled;
 document.getElementById("BD6").innerHTML= 	navigator.cpuClass;
 document.getElementById("BD7").innerHTML= 	navigator.onLine;
-document.getElementById("BD8").innerHTML= 	"LKJSALKASDLKJ";
-document.getElementById("BD2").innerHTML= 	navigator.appCodeName;
+document.getElementById("BD8").innerHTML= 	navigator.platform;
+document.getElementById("BD9").innerHTML= 	navigator.plugins.length;
