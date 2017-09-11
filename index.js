@@ -1,1 +1,1 @@
-document.write("LKJASD");
+console.log(Math.ceil(Math.random() * 2 ));
