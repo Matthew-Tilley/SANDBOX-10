@@ -1,1 +1,1 @@
-console.log(document.getElementById("para"));
+console.log(document.getElementById("para").innerHTML = "frog");
