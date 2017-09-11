@@ -44,3 +44,5 @@ else
 
 document.getElementById("BD8").innerHTML= 	navigator.platform;
 document.getElementById("BD9").innerHTML= 	navigator.plugins.length;
+
+/*TESTED IN CHROME AND FIREFOX DEVED - WORKS PROPERLY IN BOTH.*/
