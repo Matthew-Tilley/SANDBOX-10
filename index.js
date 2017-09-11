@@ -1,1 +1,1 @@
-alert("You have visited " + history.length + " web pages in this browser session!!!");
+history.back();
