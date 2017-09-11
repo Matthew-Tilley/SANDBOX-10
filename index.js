@@ -1,1 +1,1 @@
-location.replace = "www.google.com";
+location.reload;
