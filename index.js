@@ -1,1 +1,1 @@
-history.go(-30);
+history.go("https://www.google.com");
