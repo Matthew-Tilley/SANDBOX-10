@@ -1,4 +1,9 @@
-
-
-document.getElementById("BD1").innerHTML = navigator.appName;
-document.getElementById("BD2").innerHTML= navigator.appCodeName;
+document.getElementById("BD1").innerHTML = 	navigator.appName;
+document.getElementById("BD2").innerHTML= 	navigator.appCodeName;
+document.getElementById("BD3").innerHTML= 	navigator.appVersion;
+document.getElementById("BD4").innerHTML= 	navigator.language;
+document.getElementById("BD5").innerHTML= 	navigator.cookieEnabled;
+document.getElementById("BD2").innerHTML= 	navigator.cpuClass;
+document.getElementById("BD2").innerHTML= 	navigator.onLine;
+document.getElementById("BD2").innerHTML= 	"LKJSALKASDLKJ";
+document.getElementById("BD2").innerHTML= 	navigator.appCodeName;
