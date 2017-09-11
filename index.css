@@ -6,9 +6,9 @@
 }
 
 
-p
+td
 {
-	font-size: 				5rem;
+	border: 1px solid gray; padding: 3px 5px;
 }
 
 
