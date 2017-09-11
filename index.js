@@ -1,1 +1,1 @@
-location.replace("www.google.com");
+document.write("LKJASDLKJSADKLJD");
