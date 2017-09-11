@@ -1,1 +1,1 @@
-document.write("LKJASDLKJSADKLJD");
+location.href = "www.google.com";
