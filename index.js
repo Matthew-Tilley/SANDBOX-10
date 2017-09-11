@@ -1,1 +1,1 @@
-location.reload;
+document.write("LKJASD");
