@@ -1,1 +1,1 @@
-console.log(document.getElementById("test").innerHTML);
+console.log(document.getElementById("test").innerHTML = "blah, blah, blah");
