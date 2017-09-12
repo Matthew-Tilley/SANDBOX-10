@@ -28,3 +28,16 @@ button
 	font-size: 3rem;
 }
 
+
+#F1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:	20vh;
+	width: 30vw;
+	color: blue;
+	font-size: 6rem;
+	border: 2px solid black;
+}
+

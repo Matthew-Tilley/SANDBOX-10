@@ -2,7 +2,7 @@ function user_input()
 {
 	var date = new Date();
 	var day = date.getDay();
-	humanizer();
+	humanizer(day);
 }
 
 
@@ -37,5 +37,5 @@ function humanizer(day)
 
 function display(x)
 {
-	console.log(x);
+	document.getElementById("F1").innerHTML = x;
 }
