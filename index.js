@@ -1,8 +1,18 @@
-with (Math)
+function telltime()
 {
-	var MyRand = random();
-	var biggest = max(3,4,5);
-	var height = round(76.35);
+	var out = " ";
+	var now = new Date;
+	
+	out += "<br /> Date: " + now.getDate;
+	
+	document.getElementById("T1").innerHTML = now;
+
+	
 }
 
-console.log(MyRand, biggest, height);
+
+telltime();
+
+
+
+
