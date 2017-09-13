@@ -1,3 +1,2 @@
-var ding = new Date;
-
-console.log(ding.toDateString());
+var height = prompt("Enter height of cylinder, in meters: ");
+console.log(height);
