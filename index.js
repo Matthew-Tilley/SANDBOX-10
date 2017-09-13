@@ -1,11 +1,3 @@
-function round_up()
-{
-	
-	var input = prompt("Enter a float value: ")
-	
-	return Math.round(input);
-	
-}
+var age = [50, 42, 99, 35, 28];
 
-console.log(round_up());
-
+console.log(Math.min(age));
