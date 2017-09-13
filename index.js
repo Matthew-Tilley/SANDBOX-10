@@ -1,3 +1,6 @@
-var age = [50, 42, 99, 35, 28];
+var D = 23;
+var M = 27;
+var C = 31;
+var S = 19;
 
-console.log(Math.min(age));
+console.log("The youngest person is: " + Math.min(D, M, C, S) + " years old.");
