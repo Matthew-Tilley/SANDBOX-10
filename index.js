@@ -1,5 +1,4 @@
-for (i=0; i<50; i++)
-{
-	location.reload();
-	console.log("DING!");
-}
+var plonk = new Date;
+var zonk = plonk.getDate;
+
+console.log(plonk);
