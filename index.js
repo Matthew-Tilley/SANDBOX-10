@@ -1,3 +1,5 @@
+
+
 function telltime()
 {
 	var out = " ";
@@ -13,7 +15,6 @@ function telltime()
 	
 	
 	
-	
 	document.getElementById("T1").innerHTML = out;
 	
 	
@@ -22,7 +23,7 @@ function telltime()
 }
 
 
-telltime();
+
 
 
 
