@@ -7,6 +7,8 @@ function telltime()
 	out += "<br /> Month: " + now.getMonth();
 	out += "<br /> Year: " + now.getYear();
 	out += "<br /> Hours: " + now.getHours();
+	out += "<br /> Minutes: " + now.getMinutes();
+	
 	
 	
 	
