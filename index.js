@@ -9,6 +9,7 @@ function telltime()
 	out += "<br /> Hours: " + now.getHours();
 	out += "<br /> Minutes: " + now.getMinutes();
 	out += "<br /> Seconds: " + now.getSeconds();
+	out += "<br /> Milliseconds: " + now.getUTCMilliseconds();
 	
 	
 	
