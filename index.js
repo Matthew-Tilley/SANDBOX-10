@@ -1,5 +1,8 @@
-var base = prompt("Enter radius of your circle: ");
+with (Math)
+{
+	var MyRand = random();
+	var biggest = max(3,4,5);
+	var height = round(76.35);
+}
 
-var area = Math.PI * Math.pow(base, 2);
-
-console.log("The area of your circle is: " + area);
+console.log(MyRand, biggest, height);
