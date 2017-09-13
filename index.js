@@ -3,7 +3,7 @@ function round_up()
 	
 	var input = prompt("Enter a float value: ")
 	
-	return Math.ceil(input);
+	return Math.floor(input);
 	
 }
 
