@@ -1,4 +1,3 @@
-var plonk = new Date;
-var zonk = plonk.getDate;
+var ding = new Date;
 
-console.log(plonk);
+console.log(ding.toString());
