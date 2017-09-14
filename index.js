@@ -1,5 +1,3 @@
 var test = new Date();
 
-test.toLocaleTimeString();
-
-console.log(test);
+var test_day = console.log(test.getDate());
