@@ -1,5 +1,5 @@
 var test = new Date();
 
-test.toLocaleDateString();
+test.toLocaleTimeString();
 
 console.log(test);
