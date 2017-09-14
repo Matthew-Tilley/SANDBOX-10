@@ -1,6 +1,6 @@
 function backward()
 {
-	history.back();
+	history.back(2);
 }
 
 function forward()
