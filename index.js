@@ -1,1 +1,1 @@
-console.log(isNaN("horse"));
+console.log(isNaN("4"));
