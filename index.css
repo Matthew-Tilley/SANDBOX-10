@@ -29,7 +29,7 @@ body
 }
 
 
-button
+.buttons
 {
 	height: 20vh;
 	width: 30vw;
@@ -45,11 +45,23 @@ h2
 
 #I1
 {
+	display:				flex;
+	justify-content:		center;
+	align-items: 			center;
+	
+	
 	height:	20vh;
-	font-size: 3rem;
+	width: 30vw;
+	font-size: 7rem;
+	font-weight: 900;
 	color: blue;
 	font-family: arial;
 	border: 2px solid black;
 	margin-top:	4rem;
+}
+
+#B2
+{
+	margin-top:		5rem;
 }
 
