@@ -1,1 +1,1 @@
-console.log(isNaN(4));
+console.log(parseFloat("5 foo"));
