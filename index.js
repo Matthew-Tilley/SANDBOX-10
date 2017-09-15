@@ -1,1 +1,3 @@
-console.log(parseFloat("blah, blah, blah 8"));
+var x = 54
+
+console.log(isFinite(x));
