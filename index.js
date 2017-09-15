@@ -1,1 +1,1 @@
-console.log(parseFloat("5 foo"));
+console.log(parseFloat("blah, blah, blah 8"));
