@@ -1,3 +1,3 @@
 var string1 = "abcd abcd abcd abcd abcd ";
 
-console.log(string1.lastIndexOf("d"));
+console.log(string1.replace("c", "x"));
