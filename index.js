@@ -1,3 +1,3 @@
-var string1 = "abcd abcd abcd abcd abcd ";
+var string1 = "The quick brown fox ";
 
-console.log(string1.split(""));
+console.log(string1.substr(4));
