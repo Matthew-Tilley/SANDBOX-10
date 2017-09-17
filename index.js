@@ -1,0 +1,1 @@
+confirm("What do you wanna do?");
