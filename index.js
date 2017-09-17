@@ -1,6 +1,3 @@
-var a = "this";
-var b = "that";
+var string1 = "The quick brown fox ";
 
-var combined = a + " & " + b;
-
-console.log(combined);
+console.log(string1.indexOf("fox"));
