@@ -1,3 +1,1 @@
-var x = -1;
-
-console.log(isFinite(Math.sqrt(x)));
+alert("Important message!\n\nError detected!\nPlease check your data!");
