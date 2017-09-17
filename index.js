@@ -1,3 +1,3 @@
-var string1 = "The quick brown fox ";
+var string1 = "abcd abcd abcd abcd abcd ";
 
-console.log(string1.indexOf("dog"));
+console.log(string1.indexOf("b"));
