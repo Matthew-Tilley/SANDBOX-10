@@ -11,12 +11,12 @@ function detectSpam(input)
 	
 	if (input.indexOf("fake") > 0)
 	{
-		console.log("The Orange Terror declares this fake news!");
+		alert("The Orange Terror declares this fake news!");
 	}
 	
 	else
 	{
-		console.log("The Orange Terror approves.");
+		alert("The Orange Terror approves.");
 	}
 	
 }
