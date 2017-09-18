@@ -10,11 +10,14 @@ function decider(check)
 {
 	if(check == true)
 	{
-		console.log("Continuing.");
+		var output = "continuing";
+		console.log(output.toUpperCase());
+		
 	}
 	
 	else
 	{
-		console.log("Not continuing.");
+		var output = "NOT CONTINUING";
+		console.log(output.toLowerCase());
 	}
 }
