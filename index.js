@@ -4,4 +4,4 @@ console.log(my_array);
 
 my_array += "BLOOP";
 
-console.log(my_array);
+console.log(my_array += "FOO");
