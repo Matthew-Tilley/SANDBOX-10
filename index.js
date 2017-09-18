@@ -2,13 +2,19 @@ function confirmz()
 {
 	var check = confirm("Are you absolutely,\npositively sure\nyou want to continue???");
 	
-	if (check == true)
+	return decider(check);
+}
+
+
+function decider(check)
+{
+	if(check == true)
 	{
-		console.log("They want to continue.");
+		console.log("Continuing.");
 	}
 	
 	else
 	{
-		console.log("User is not continuing.");
+		console.log("Not continuing.");
 	}
 }
