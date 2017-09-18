@@ -1,5 +1,2 @@
-var ding = "LKAJSD";
+var ding = ["ABC", "DEF", "GHI", "JKL", "MNO", "PQR"];
 
-var dong = "lksadj";
-
-console.log(ding.concat(" " + dong));
