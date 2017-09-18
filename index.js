@@ -1,4 +1,4 @@
 var ding = ["ABC", "DEF", "GHI", "JKL", "MNO", "PQR"];
 
-console.log(ding[0].toLowerCase());
+console.log(ding.length);
 
