@@ -1,7 +1,9 @@
+var input = prompt('Enter some text with the string of "fake" at some point.');
+
 function detectSpam(input)
 {
-	input = input.toLowerCase();
-	return console.log(input.indexOf("fake"));
+	console.log(input);
+	
 }
 
-detectSpam("The Orange Terror claims this is FAKE news!");
+
