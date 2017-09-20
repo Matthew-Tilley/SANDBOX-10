@@ -6,4 +6,6 @@ myArray_1.push("Monday", "Tuesday", "Wednesday", "Thursday");
 
 myArray_2.push("Friday", "Saturday", "Sunday");
 
-console.log(myArray_1[2].concat(myArray_2[2]));
+var weekend = myArray_2[1].concat(myArray_2[2]);
+
+console.log(weekend);
