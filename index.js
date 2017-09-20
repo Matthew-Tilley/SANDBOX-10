@@ -2,6 +2,6 @@ var my_array = new Array();
 
 console.log(my_array);
 
-my_array += "BLOOP";
+my_array += "BLOOP", "BLOP", "FLOP";
 
-console.log(my_array += "FOO");
+console.log(my_array += " FOO");
