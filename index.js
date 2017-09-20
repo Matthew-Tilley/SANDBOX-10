@@ -1,13 +1,11 @@
-var message = " ";
-var bool = false;
+var cointoss = Math.round(Math.random());
 
-var a = 1;
-console.log(typeof(bool));
-
-if (bool) {
-	console.log(message = "The test condition evaluated to true.");
+if (cointoss == 1)
+{
+	console.log("HEADS");
 }
 
-else{
-	console.log("The test condition evaluated to false.");
+else
+{
+	console.log("TAILS");
 }
