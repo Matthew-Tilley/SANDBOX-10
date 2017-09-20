@@ -2,14 +2,13 @@ var a = [1,2,3,4,5,6,7,8,9];
 
 for (i=0; i<a.length; i++)
 {
-	if ( i %2 == 0)
+	if ( a[i] %2 == 0)
 	{
-		console.log("The number " + i + " is even.");
+		console.log("The number " + a[i] + " is even.");
 	}
 	
 	else
 	{
-		console.log("The number " + i + " is odd.");	
+		console.log("The number " + a[i] + " is odd.");
 	}
-	
 }
