@@ -1,11 +1,11 @@
-var myArray = [];
+var myArray_1 = [];
 
-myArray[1] = "Monday";
-myArray[3] = "Wednesday";
-myArray[5] = "Friday";
-myArray[0] = "Sunday";
-myArray[2] = "Tuesday";
-myArray[4] = "Thursday";
-myArray[6] = "Saturday";
+var myArray_2 = [];
 
+myArray_1.push("Monday", "Tuesday", "Wednesday", "Thursday");
 
+myArray_2.push("Friday", "Saturday", "Sunday");
+
+console.log(myArray_1, myArray_2);
+
+console.log(myArray_1.concat(myArray_2));
