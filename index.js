@@ -1,3 +1,3 @@
-var test = ["egg", "foo", "cow"];
+var test = ["egg", "foo", "cow", "foo", "foo"];
 
-console.log(test.indexOf("foo"));
+console.log(test.lastIndexOf("foo"));
