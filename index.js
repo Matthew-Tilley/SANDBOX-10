@@ -14,3 +14,9 @@ function activate()
 	}
 	
 }
+
+function newGame()
+{
+	location.reload();
+}
+
