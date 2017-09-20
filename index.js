@@ -1,18 +1,10 @@
-function wrangleArray()
-{
-var sentence = "Javascript is a really cool language!";
+var message = " ";
+var bool = false;
 
-var newSentence = " ";
+if (bool) {
+	console.log(message = "The test condition evaluated to true.");
+}
 
-document.getElementById("div1").innerHTML = "<p>" + sentence + "</p>";
-
-var words = sentence.split(" ");
-
-console.log(words);
-
-var message = words.splice(3,2, "powerful");
-
-alert("Removed words: " + message);
-
-document.getElementById("div2").innerHTML = "<p>" + words.join(" ") + "</p>";
+else{
+	console.log("The test condition evaluated to false.");
 }
