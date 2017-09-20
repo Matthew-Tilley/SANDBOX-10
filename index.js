@@ -8,4 +8,4 @@ myArray_2.push("Friday", "Saturday", "Sunday");
 
 var weekend = myArray_2[1].concat(myArray_2[2]);
 
-console.log(weekend);
+console.log(myArray_1.length);
