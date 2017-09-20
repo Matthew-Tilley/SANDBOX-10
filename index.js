@@ -1,7 +1,3 @@
-var my_array = new Array();
+var a = "12345"
 
-console.log(my_array);
-
-my_array += "BLOOP", "BLOP", "FLOP";
-
-console.log(my_array += " FOO");
+console.log(typeof(a));
