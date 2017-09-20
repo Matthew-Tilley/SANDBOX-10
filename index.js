@@ -1,3 +1,5 @@
+function wrangleArray()
+{
 var sentence = "Javascript is a really cool language!";
 
 var newSentence = " ";
@@ -13,3 +15,4 @@ var message = words.splice(3,2, "powerful");
 alert("Removed words: " + message);
 
 document.getElementById("div2").innerHTML = "<p>" + words.join(" ") + "</p>";
+}
