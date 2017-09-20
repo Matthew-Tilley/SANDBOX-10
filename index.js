@@ -1,6 +1,6 @@
 var test = ["egg", "foo", "cow", "foo", "foo"];
 
-var S1 = console.log(test.slice(1,3));
+var test = test.slice(1, 4);
 
 console.log(test);
 
