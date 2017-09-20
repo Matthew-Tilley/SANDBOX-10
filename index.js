@@ -1,7 +1,3 @@
-var test = ["egg", "foo", "cow", "foo", "foo"];
+var mess = ["z", "q", "b", "a"];
 
-var test = test.slice(1, 4);
-
-console.log(test);
-
-
+console.log(mess.sort());
