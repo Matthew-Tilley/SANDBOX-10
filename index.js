@@ -10,5 +10,13 @@ myArray[2] = "Tuesday";
 myArray[4] = "Thursday";
 myArray[6] = "Saturday";
 
+designation += "ICE CREAM DAY!";
+
 console.log(myArray, designation);
+
+for (i=0; i<myArray.length; i++)
+{
+	var output = myArray.concat(designation);
+	console.log(output);
+}
 
