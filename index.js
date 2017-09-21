@@ -1,7 +1,8 @@
 function detectSpam(input)
 {
-	
-	console.log(input.toLowerCase());
+	input = prompt("Enter something here!");
+	input = input.toLowerCase();
+	return typeof(input);
 }
 
-detectSpam("KLJHASDLKJASDLKJDS");
+console.log(detectSpam());
