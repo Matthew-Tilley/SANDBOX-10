@@ -1,4 +1,12 @@
-function checkTemp()
+function detectSpam(input)
 {
-	var temp = Math.round(Math.random) * 3
+	input = prompt("Enter something here!!!");
+	
+	if (parseInt(typeof(input)) == number)
+		{
+			console.log("NUMBER!!!")
+			
+		}
 }
+
+detectSpam();
