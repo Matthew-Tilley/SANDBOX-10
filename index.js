@@ -8,7 +8,12 @@ function detectSpam(input)
 {
 	if ( input.indexOf("fake") >= 0 )
 		{
-			return console.log("FAKE NEWS");
+			return console.log("FAKE NEWS" + " at position " + input.indexOf("fake"));
+		}
+	
+	else
+		{
+			return console.log("SEEMS LEGIT - ORANGE TERROR APPROVED");
 		}
 	
 	/*return console.log(input.toLowerCase());*/
