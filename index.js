@@ -1,4 +1,4 @@
 function checkTemp()
 {
-	console.log("IT WORKS");
+	var temp = Math.round(Math.random) * 3
 }
