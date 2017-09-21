@@ -1,14 +1,4 @@
-var message = " ";
-var temperature = 60;
-
-if (temperature < 60)
+function checkTemp()
 {
-	message = "Turn on the heat.";
+	console.log("IT WORKS");
 }
-
-else 
-{
-	message = "Turn on the air conditioning."
-}
-
-console.log(message);
