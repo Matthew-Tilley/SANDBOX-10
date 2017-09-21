@@ -1,26 +1,16 @@
-function user_input()
+var temp = prompt("Enter the current temperature.");
+
+if ( temp < 64 )
 {
-	var input = prompt("Enter something here.");
-	return detectSpam(input);
+	console.log("Turn on the heater.");
 }
 
-function detectSpam(input)
+else if ( temp > 64 && temp < 73 )
 {
-	if ( input.indexOf("fake") >= 0 )
-		{
-			return console.log("FAKE NEWS" + " at position " + input.indexOf("fake"));
-		}
-	
-	else
-		{
-			return console.log("SEEMS LEGIT - ORANGE TERROR APPROVED");
-		}
-	
-	/*return console.log(input.toLowerCase());*/
-	
+	console.log("All is well.");
 }
 
-user_input();
-
-
-
+else
+{
+	console.log("Turn on the air conditioning!");
+}
