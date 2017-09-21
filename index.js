@@ -6,7 +6,12 @@ function user_input()
 
 function detectSpam(input)
 {
-	return console.log(input.toLowerCase());
+	if ( input.indexOf("fake") < 0 )
+		{
+			return console.log("false");
+		}
+	
+	/*return console.log(input.toLowerCase());*/
 	
 }
 
