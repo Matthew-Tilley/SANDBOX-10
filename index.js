@@ -6,9 +6,9 @@ function user_input()
 
 function detectSpam(input)
 {
-	if ( input.indexOf("fake") < 0 )
+	if ( input.indexOf("fake") >= 0 )
 		{
-			return console.log("false");
+			return console.log("FAKE NEWS");
 		}
 	
 	/*return console.log(input.toLowerCase());*/
