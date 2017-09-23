@@ -1,7 +1,19 @@
-var countdown = 10;
+var turnip = 40;
 
-while (countdown > 0)
+do
 {
-	console.log(countdown);
-	countdown--;
-}
+	console.log("Turnip " + turnip)
+	turnip--;
+} 	while(turnip > 19);
+	
+
+do
+{
+	console.log("Not a turnip " + turnip)
+	turnip--
+}	while (turnip > 0 && turnip < 20);
+
+do
+{
+	console.log("No more turnips OR non-turnips!")
+} 	while (turnip <= 0);
