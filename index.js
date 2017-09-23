@@ -1,9 +1,5 @@
-function hide(elementId)
+function hide()
 {
+	setTimeout(3000);
 	document.getElementById("id1").style.display = "none";
-}
-
-function byebye()
-{
-	setTimeout(hide(), 3000);
 }
