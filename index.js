@@ -1,10 +1,10 @@
 function possible()
 {
 	var number = Math.ceil(Math.random() * 69 );
-	return number;
+	return console.log("IT WORKS " + number);
 }
 
-console.log(possible(number));
+
 
 
 
