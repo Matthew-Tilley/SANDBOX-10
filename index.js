@@ -1,8 +1,19 @@
-var temp = prompt("Enter the current temperature.");
+var color = "green";
 
-switch(temp)
+switch(color)
 {
-	case "< 64" :
-	console.log("TURN ON THE HEAT.");
+	case color = "red" :
+	message = console.log("Stop!");
 	break;
+	
+	case color = "yellow" :
+	message = console.log("Proceed with caution!");
+	break;
+		
+	case color = "green" :
+	message = console.log("You may proceed.");
+	break;
+	
 }
+
+
