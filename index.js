@@ -11,9 +11,9 @@ function checker(number)
 	
 	for ( i in white_balls )
 	{
-		if ( number != white_balls[i])
+		if ( white_balls.length < 1 )
 		{
-			white_balls.push();
+			white_balls.push(number);
 		}
 	}
 	
