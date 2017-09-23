@@ -4,5 +4,5 @@ var message;
 
 for (i in days)
 {
-	console.log(i + " " + days[i])
+	var message = console.log("Day " + i + " is " + days[i] + "\n");
 }
