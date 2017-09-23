@@ -1,17 +1,5 @@
-function number_picker()
+function possible()
 {
-	var possible = (Math.ceil(Math.random() * 69 ));
-	
-	for ( i in white_balls )
-	{
-		if ( possible != white_balls[i])
-		{
-			white_balls.push(possible);
-		}
-	}
+	var number = Math.ceil(Math.random() * 69 );
+	console.log(number);
 }
-
-var white_balls = [];
-
-
-
