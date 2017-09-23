@@ -9,7 +9,7 @@ if (temperature < 64 && access_code == user_access_code)
 	console.log("You may turn on the heat.");
 }
 
-else if (temperature > 64 || temperature < 75 && access_code == user_access_code)
+else if (temperature > 64 && temperature < 75 && access_code == user_access_code)
 {
 	console.log("No action is required");
 }
