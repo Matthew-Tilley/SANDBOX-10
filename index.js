@@ -1,9 +1,7 @@
-var count = 10;
-var sum = 0;
-while(count > 0)
-{
-	sum = sum + count;
-	count--;
-}
+var countdown = 10;
 
-console.log(sum);
+while (countdown > 0)
+{
+	console.log(countdown);
+	countdown--;
+}
