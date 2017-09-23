@@ -1,10 +1,5 @@
-var count = 10; 
-var sum = 0;
-while(count > 0)
-{
-	sum = sum + count;
-	if(sum > 42 ) break;
-	count--;
-}
+var days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
 
-console.log(sum);
+console.log(days);
+console.log(days.length);
+console.log(days[3]);
