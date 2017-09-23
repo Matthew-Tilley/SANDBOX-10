@@ -1,5 +1,4 @@
-function hide()
+function work()
 {
-	setTimeout(3000);
 	document.getElementById("id1").style.display = "none";
 }
