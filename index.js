@@ -1,8 +1,4 @@
-var days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
-
-var message;
-
-for (i in days)
+function hide(elementId)
 {
-	var message = console.log("Day " + i + " is " + days[i] + "\n");
+	document.getElementById("id1").style.display = "none";
 }
