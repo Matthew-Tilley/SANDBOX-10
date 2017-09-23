@@ -1,5 +1,8 @@
 var days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
 
-console.log(days);
-console.log(days.length);
-console.log(days[3]);
+var message;
+
+for (i in days)
+{
+	console.log(i + " " + days[i])
+}
