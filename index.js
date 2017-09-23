@@ -1,19 +1,6 @@
-var turnip = 40;
+var my_array = [1,2,3,4];
 
-do
+for (i=0; i < my_array.length; i++)
 {
-	console.log("Turnip " + turnip)
-	turnip--;
-} 	while(turnip > 19);
-	
-
-do
-{
-	console.log("Not a turnip " + turnip)
-	turnip--
-}	while (turnip > 0 && turnip < 20);
-
-do
-{
-	console.log("No more turnips OR non-turnips!")
-} 	while (turnip <= 0);
+	console.log("Something here! " + i);
+}
