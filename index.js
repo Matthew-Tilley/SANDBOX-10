@@ -1,6 +1,10 @@
-var my_array = [1,2,3,4];
-
-for (i=0; i < my_array.length; i++)
+var count = 10; 
+var sum = 0;
+while(count > 0)
 {
-	console.log("Something here! " + i);
+	sum = sum + count;
+	if(sum > 42 ) break;
+	count--;
 }
+
+console.log(sum);
