@@ -7,6 +7,11 @@ function myObjectType()
 		alert(this.info);
 	}
 	
+	this.setInfo = function(newInfo)
+	{
+		this.info = newInfo;
+	}
+	
 	
 }
 
