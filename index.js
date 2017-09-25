@@ -12,3 +12,5 @@ function person(personName)
 var person1 = new person("Adam");
 var person2 = new person("Eve");
 
+console.log(person1);
+
