@@ -6,13 +6,14 @@ function car(color, year, make, miles)
 	this.miles = miles;
 	this.odometerReading = miles;
 	
-	/*this.setOdometer = (newMiles)
+	this.setOdometer = (newMiles)
 	{
 		this.odometerReading = newMiles;
-	}*/
+	}
 	
 }
 
 var car1 = new car("white", 2008, "Pontiac", 110000);
+car1.setOdometer = 112000;
 
 console.log(car1);
