@@ -7,6 +7,7 @@ function myFunc()
 	alert(this.info);
 }
 
+
 myNewObject.showInfo = myFunc;
 
 
