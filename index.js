@@ -12,6 +12,11 @@ function person(personName)
 var person1 = new person("Adam");
 var person2 = new person("Eve");
 
+person.prototype.sayHello = function()
+{
+	alert(this.name + " says hello!");
+}
+
 
 
 
