@@ -13,6 +13,6 @@ function car(color, year, make, miles)
 	
 }
 
-var car1 = new car(white, 2008, Pontiac, 110000);
+var car1 = new car("white", 2008, "Pontiac", 110000);
 
 console.log(car1);
