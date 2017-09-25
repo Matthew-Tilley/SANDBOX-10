@@ -5,7 +5,7 @@ function person(personName)
 	
 	this.showInfo = function()
 	{
-		alert(this.name + " says hello!");
+		alert(this.info);
 	}
 }
 
