@@ -8,6 +8,13 @@ function myFunc()
 }
 
 
+function newFunc()
+{
+	alert(this.info + " HELLO");
+}
+
+myNewObject.showInfo = newFunc;
+
 myNewObject.showInfo = myFunc;
 
 
