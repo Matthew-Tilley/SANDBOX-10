@@ -5,7 +5,13 @@ function car(color, year, make, miles)
 	this.make = make;
 	this.miles = miles;
 	
-	console.log(this.color);
+	var saver = [];
+	
+	if (color.length > 0)
+	{
+		saver.push;
+		console.log(saver);
+	}
 }
 
 /*function car(color, year, make, miles)
