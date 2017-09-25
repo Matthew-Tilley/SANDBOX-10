@@ -8,3 +8,5 @@ function myObjectType()
 	}
 }
 
+
+myObjectType.showInfo();
