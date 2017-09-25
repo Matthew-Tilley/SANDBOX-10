@@ -9,10 +9,5 @@ function person(personName)
 	}
 }
 
+console.log(person("Joe").showInfo());
 
-/*person.prototype.sayHello = function()
-{
-	alert(this.name + " says hello!");
-}*/
-
-person("Joe");
