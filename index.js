@@ -9,6 +9,6 @@ function person(personName)
 	}
 }
 
-var person1 = new Person("Adam");
-var person2 = new Person("Eve");
+var person1 = new person("Adam");
+var person2 = new person("Eve");
 
