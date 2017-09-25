@@ -1,17 +1,16 @@
 function car(color, year, make, miles)
 {
-	this.color = prompt("Enter vehicle color:"); 
+	this.color = color;
 	this.year = year;
 	this.make = make;
 	this.miles = miles;
+	this.odometerReading = miles;
 	
-	var saver = [];
-	
-	if (color.length > 0)
+	this.setOdometer = (newMiles)
 	{
-		saver.push;
-		console.log(saver);
+		this.odometerReading = newMiles;
 	}
+	
 }
 
 /*function car(color, year, make, miles)
