@@ -4,9 +4,11 @@ function myObjectType()
 	
 	this.showInfo = function()
 	{
-		console.log(this.info);
+		alert(this.info);
 	}
+	
+	
 }
 
 
-myObjectType.showInfo();
+console.log(myObjectType.info);
