@@ -9,5 +9,6 @@ function person(personName)
 	}
 }
 
-console.log(person("Joe").showInfo());
+var person1 = new Person("Adam");
+var person2 = new Person("Eve");
 
