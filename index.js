@@ -7,3 +7,7 @@ function box(width, length, height)
 	
 	this.boxVolume = volume(width, length, height);
 }
+
+var crate = new box(5,4,3);
+
+alert("Volume = " + crate.boxVolume);
