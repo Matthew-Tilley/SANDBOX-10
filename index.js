@@ -4,11 +4,19 @@ function picker()
 {
 	var white_balls = [];
 	
-	var possible = prompt("Enter a number:")
+	var possible = Math.ceil(Math.random * 69);
 	
-	white_balls.push(possible);
+	for each ( i in white_balls)
+	{
+		if (possible != white_balls[i])
+		{
+			white_balls.push(possible);
+			console.log(white_balls);
+		}
+		
+	}
 	
-	console.log(white_balls);
+	
 	
 	
 }
