@@ -1,37 +1,16 @@
-function pet()
+String.prototype.backwards = function()
 {
-	this.animal = "";
-	this.name = "";
+	var out = "";
 	
-	this.setAnimal = function(newAnimal)
+	for (i=this.length-1; >= 0; i--)
 	{
-		this.animal = newAnimal;
+		out += this.substr(i, 1);
 	}
 	
-	this.setName = function(newName)
-	{
-		this.name = newName;
-	}
-	
-}
-
-var myCat = new pet();
-myCat.setAnimal = "cat";
-myCat.setName = "Jade";
-
-
-function dog()
-{
-	this.breed = "";
-	this.setBreed = function(newBreed)
-	{
-		this.breed = newBreed;
-	}
-	
-	dog.prototype = new pet();
+	return out;
 }
 
 
-var myDog = new dog()
-myDog.setName("Baxter");
+var inString = prompt("Enter your test string:");
 
+console.log(inString.backwards());
