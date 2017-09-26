@@ -1,5 +1,8 @@
-var myArray = [33,5,767, 668, 343];
+var values = "";
 
-var a = Math.max(parseInt(myArray));
+for (i=0; i<5; i++)
+{
+	values += i;
+}
 
-console.log(a);
+console.log(Math.min(values));
