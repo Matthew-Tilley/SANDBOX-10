@@ -20,3 +20,18 @@ myCat.setAnimal = "cat";
 myCat.setName = "Jade";
 
 
+function dog()
+{
+	this.breed = "";
+	this.setBreed = function(newBreed)
+	{
+		this.breed = newBreed;
+	}
+	
+	dog.prototype = new pet();
+}
+
+
+var myDog = new dog()
+myDog.setName("Baxter");
+
