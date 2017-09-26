@@ -1,1 +1,1 @@
-console.log(Math.round(123.556));
+console.log(Math.pow(3,2));
