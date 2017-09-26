@@ -1,8 +1,4 @@
-var values = "";
+var a = 50;
+var b = 60;
 
-for (i=0; i<5; i++)
-{
-	values += i;
-}
-
-console.log(Math.min(values));
+console.log(Math.max(a,b));
