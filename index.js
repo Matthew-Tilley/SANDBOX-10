@@ -1,1 +1,1 @@
-console.log(Math.abs(123.456) * 2);
+console.log(Math.ceil(123.556));
