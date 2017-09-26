@@ -1,1 +1,1 @@
-console.log(Math.floor(123.556));
+console.log(Math.round(123.556));
