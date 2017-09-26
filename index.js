@@ -2,7 +2,7 @@ String.prototype.backwards = function()
 {
 	var out = "";
 	
-	for (i=this.length-1; >= 0; i--)
+	for (i=this.length-1; i >= 0; i--)
 	{
 		out += this.substr(i, 1);
 	}
