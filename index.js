@@ -11,3 +11,5 @@ function box(width, length, height)
 var crate = new box(5,4,3);
 
 alert("Volume = " + crate.boxVolume);
+
+alert(volume(5,4,3));
