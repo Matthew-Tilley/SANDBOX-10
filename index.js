@@ -1,22 +1,9 @@
-
-
-function picker()
+function box(width, length, height)
 {
-	var white_balls = [];
-	
-	var possible = Math.ceil(Math.random * 69);
-	
-	for each ( i in white_balls)
+	function volume(a,b,c)
 	{
-		if (possible != white_balls[i])
-		{
-			white_balls.push(possible);
-			console.log(white_balls);
-		}
-		
+		return a*b*c;
 	}
 	
-	
-	
-	
+	this.boxVolume = volume(width, length, height);
 }
