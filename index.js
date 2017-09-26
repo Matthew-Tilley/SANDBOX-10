@@ -1,4 +1,4 @@
-function test1 = function
+function test1()
 {
 	this.name = prompt("Enter your name.");
 }
