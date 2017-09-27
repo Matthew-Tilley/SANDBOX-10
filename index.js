@@ -6,5 +6,5 @@ function person(last, first)
 
 var me = new person("Tilley", "Matt");
 
-console.log(me);
+console.log(me.last);
 
