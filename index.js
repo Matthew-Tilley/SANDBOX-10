@@ -1,6 +1,3 @@
-var a = 25;
-var b = .23547;
+var now = new(Date);
 
-var c = a * b;
-
-console.log(c).toFixed(2);
+console.log(now.getDate());
