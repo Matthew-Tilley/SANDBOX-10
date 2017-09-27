@@ -1,3 +1,5 @@
-var tuna = "LKJASLKSAKLJASKLSDKLJ";
-
-console.log(tuna.length);
+function person(last, first)
+{
+	this.last = lastName;
+	this.first = firstName;
+}
