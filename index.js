@@ -1,3 +1,6 @@
-var base = prompt("Enter number you wish to obtain the square root of:");
+var a = 25;
+var b = .23547;
 
-console.log(Math.sqrt(base));
+var c = a * b;
+
+console.log(c).toFixed(2);
