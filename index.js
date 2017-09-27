@@ -1,3 +1,3 @@
 var now = new(Date);
 
-console.log(now.getDate());
+console.log(now.getMonth());
